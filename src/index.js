@@ -14,7 +14,7 @@ const bot = new Client({
 });
 
 bot.on("ready", (c) => {
-    console.log(`${c.user.tag} is running!`);
+    console.log(`${c.user.tag} is runnsing!`);
 });
 
 bot.on("interactionCreate", (interact) => {
